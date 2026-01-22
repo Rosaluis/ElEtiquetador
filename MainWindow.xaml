@@ -1,0 +1,25 @@
+﻿<Window x:Class="Etiquetador.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Etiquetador"
+        mc:Ignorable="d"
+        Title="El Etiquetador" Height="800" Width="600"
+        Topmost="True" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    
+    <Grid ShowGridLines="True">
+        <TabControl Margin="10,200,10,100">
+            <TabItem Header="Excell">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Hand">
+                <Grid Background="#FFA5E5E5"/>
+            </TabItem>
+            <TabItem Header="Custom">
+                <Grid Background="#FFE5FFE5"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
