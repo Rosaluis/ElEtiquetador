@@ -16,7 +16,7 @@ namespace Etiquetador
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string[] _availableLanguages = { "cs", "en" };
+        private string[] _availableLanguages = { "cs", "en", "es" };
         private int _currentLanguageIndex = 0;
 
         public MainWindow()
@@ -32,6 +32,11 @@ namespace Etiquetador
         private void ChangeToEnglish(object sender, RoutedEventArgs e)
         {
             LocalizationManager.Instance.LoadLanguage("en");
+        }
+
+        private void ChangeToSpanish(object sender, RoutedEventArgs e)
+        {
+            LocalizationManager.Instance.LoadLanguage("es");
         }
 
         private void btnToogleLanguage_Click(object sender, RoutedEventArgs e)
