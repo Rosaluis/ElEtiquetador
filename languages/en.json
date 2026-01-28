@@ -1,0 +1,9 @@
+{
+	"btnEnd" : "End",
+	"btnPrinterTest" : "Printer test",
+	"grbPrinter" : "Printer",
+	"infoTxtPrinterTest" : "Information about connected printer...",
+	"tabItemExcel" : "Mass printing",
+	"tabItemHand" : "One label",
+	"tabItemCustom" : "Custom print"
+}

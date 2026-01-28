@@ -1,0 +1,9 @@
+{
+	"btnEnd" : "Konec",
+	"btnPrinterTest" : "Test tiskárny",
+	"grbPrinter" : "Tiskána",
+	"infoTxtPrinterTest" : "Informace o (připojené) tiskárně",
+	"tabItemExcel" : "Hromadný tisk",
+	"tabItemHand" : "Jeden štítek",
+	"tabItemCustom" : "Ruční zadání"
+}
