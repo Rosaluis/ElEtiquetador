@@ -27,13 +27,28 @@
 
         <TabControl Grid.Row="1" Margin="10">
             <TabItem Header="{local:Localize tabItemExcel}">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="{local:Localize tabItemExcelLblPathToForm}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" 
+                             Text="{local:Localize tabItemExcelTxtPathToForm}" VerticalAlignment="Top" Width="420"/>
+                    <Button Content="{local:Localize tabItemExcelBtnPathToForm}" HorizontalAlignment="Right" Margin="10,35,10,0" VerticalAlignment="Top" Width="100"/>
+                </Grid>
             </TabItem>
             <TabItem Header="{local:Localize tabItemHand}">
-                <Grid Background="#FFA5E5E5"/>
+                <Grid Background="#FFA5E5E5">
+                    <Label Content="{local:Localize tabItemHandLblPathToForm}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" 
+                            Text="{local:Localize tabItemHandTxtPathToForm}" VerticalAlignment="Top" Width="420"/>
+                    <Button Content="{local:Localize tabItemHandBtnPathToForm}" HorizontalAlignment="Right" Margin="10,35,10,0" VerticalAlignment="Top" Width="100"/>
+                </Grid>
             </TabItem>
             <TabItem Header="{local:Localize tabItemCustom}">
-                <Grid Background="#FFE5FFE5"/>
+                <Grid Background="#FFE5FFE5">
+                    <Label Content="{local:Localize tabItemCustomLblPathToForm}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" 
+                            Text="{local:Localize tabItemCustomTxtPathToForm}" VerticalAlignment="Top" Width="420"/>
+                    <Button Content="{local:Localize tabItemCustomBtnPathToForm}" HorizontalAlignment="Right" Margin="10,35,10,0" VerticalAlignment="Top" Width="100"/>
+                </Grid>
             </TabItem>
         </TabControl>
         <Button Content="{local:Localize btnEnd}" HorizontalAlignment="Left" Margin="475,25,0,0" Grid.Row="2" VerticalAlignment="Top" Height="25" Width="100" Click="btnEnd_Click"/>

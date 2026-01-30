@@ -3,8 +3,21 @@
 	"btnPrinterTest" : "Test tiskárny",
 	"grbPrinter" : "Tiskárna",
 	"infoTxtPrinterTest" : "Informace o (připojené) tiskárně.",
+	
+	"btnToogleLanguage" : "English",
+	
 	"tabItemExcel" : "Hromadný tisk",
+	"tabItemExcelLblPathToForm" : "Formulář hromadného tisku:",
+	"tabItemExcelTxtPathToForm" : "Cesta k formuláři hromadného tisku...",
+	"tabItemExcelBtnPathToForm" : "Vyber formulář",
+	
 	"tabItemHand" : "Jeden štítek",
+	"tabItemHandLblPathToForm" : "Formulář jednotného tisku:",
+	"tabItemHandTxtPathToForm" : "Cesta k formuláři jednotného tisku...",
+	"tabItemHandBtnPathToForm" : "Vyber formulář",
+	
 	"tabItemCustom" : "Ruční zadání",
-	"btnToogleLanguage" : "English"
+	"tabItemCustomLblPathToForm" : "Formulář zakázkového tisku:",
+	"tabItemCustomTxtPathToForm" : "Cesta k formuláři zakázkového tisku...",
+	"tabItemCustomBtnPathToForm" : "Vyber formulář"
 }
