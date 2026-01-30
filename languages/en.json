@@ -3,8 +3,22 @@
 	"btnPrinterTest" : "Printer test",
 	"grbPrinter" : "Printer",
 	"infoTxtPrinterTest" : "Information about connected printer...",
+	"btnToogleLanguage" : "Español",
+	
 	"tabItemExcel" : "Mass printing",
+	"tabItemExcelLblPathToForm" : "Form of mass printing:",
+	"tabItemExcelTxtPathToForm" : "Path of mass print form...",
+	"tabItemExcelBtnPathToForm" : "Choose path",
+	
 	"tabItemHand" : "One label",
+	"tabItemHandLblPathToForm" : "Form of one label print:",
+	"tabItemHandTxtPathToForm" : "Path of one label print form...",
+	"tabItemHandBtnPathToForm" : "Choose path",
+	
 	"tabItemCustom" : "Custom print",
-	"btnToogleLanguage" : "Español"
+	"tabItemCustomLblPathToForm" : "Form of custom print:",
+	"tabItemCustomTxtPathToForm" : "Path of custom print form...",
+	"tabItemCustomBtnPathToForm" : "Choose path"
+	
+	
 }
