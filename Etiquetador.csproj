@@ -9,6 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\lb_nahled.bmp" />
+    <None Remove="Resources\PT-E550W_pic.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\lb_nahled.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\PT-E550W_pic.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="languages\cs.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

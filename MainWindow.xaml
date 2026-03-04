@@ -32,6 +32,17 @@
                     <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" 
                              Text="{local:Localize tabItemExcelTxtPathToForm}" VerticalAlignment="Top" Width="420"/>
                     <Button Content="{local:Localize tabItemExcelBtnPathToForm}" HorizontalAlignment="Right" Margin="10,35,10,0" VerticalAlignment="Top" Width="100"/>
+                    <Image HorizontalAlignment="Left" Margin="10,60,10,10" VerticalAlignment="Top"
+                           Source="/Etiquetador;component/Resources/lb_nahled.bmp" Height="45" Width="200"/>
+                    <Label Content="{local:Localize tabItemExcelLblFilterPathToForm}" Margin="10,120,10,10" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <DataGrid x:Name="dgData" Height="300" 
+                        AutoGenerateColumns="True"
+                        Margin="10, 100, 10, 10" />
+                    <TextBox HorizontalAlignment="Left" Margin="50,125,10,10" 
+                             TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+                    <TextBox HorizontalAlignment="Left" Margin="310,125,10,10" 
+                             TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+
                 </Grid>
             </TabItem>
             <TabItem Header="{local:Localize tabItemHand}">
@@ -53,5 +64,11 @@
         </TabControl>
         <Button Content="{local:Localize btnEnd}" HorizontalAlignment="Left" Margin="475,25,0,0" Grid.Row="2" VerticalAlignment="Top" Height="25" Width="100" Click="btnEnd_Click"/>
         <Button Content="{local:Localize btnToogleLanguage}" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Grid.Row="2" Height="25" Width="100" Click="btnToogleLanguage_Click"/>
+        <Image HorizontalAlignment="Left" Height="70" Margin="200,10,10,10" Source="/Etiquetador;component/Resources/PT-E550W_pic.bmp" VerticalAlignment="Center" 
+               Width="40" Grid.Row="2">
+            <Image.RenderTransform>
+                <RotateTransform Angle="90"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
